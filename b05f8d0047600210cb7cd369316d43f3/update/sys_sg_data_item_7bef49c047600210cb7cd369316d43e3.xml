@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>LMS (Leave Management System) Leave Request</name>
+        <offline_query_condition/>
+        <offline_query_condition_script/>
+        <query_condition/>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 06:48:19</sys_created_on>
+        <sys_id>7bef49c047600210cb7cd369316d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LMS (Leave Management System) Leave Request</sys_name>
+        <sys_package display_value="LMS (Leave Management System)" source="x_1315410_lms_leav">b05f8d0047600210cb7cd369316d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LMS (Leave Management System)">b05f8d0047600210cb7cd369316d43f3</sys_scope>
+        <sys_update_name>sys_sg_data_item_7bef49c047600210cb7cd369316d43e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 06:48:19</sys_updated_on>
+        <table>x_1315410_lms_leav_leave_request</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=7bef49c047600210cb7cd369316d43e3"/>
+</record_update>
