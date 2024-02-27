@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a1c5118847600210cb7cd369316d43e9" label="Leave Calculater" max_length="40" name="x_1315410_lms_leav_leave_calculater" type="collection">
+        <element label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
+        <element label="End Month" max_length="40" name="end_month" type="string"/>
+        <element label="Leaves" max_length="40" name="leaves" type="string"/>
+        <element choice="3" default="y" label="Leave Assignment" max_length="40" name="leave_assignment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Monthly" value="m"/>
+                <element inactive_on_update="false" label="Yearly" value="y"/>
+            </choice>
+        </element>
+        <element choice="3" choice_field="leave_type" choice_table="x_1315410_lms_leav_leave_request" default="cl" label="Leave Type" max_length="40" name="leave_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Starting Month" max_length="40" name="starting_month" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="country"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

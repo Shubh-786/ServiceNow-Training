@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher display_value="LMS (Leave Management System)">f7ef49c047600210cb7cd369316d43e1</applet_launcher>
+        <icon display_value="Home LMS (Leave Management System)">fbef49c047600210cb7cd369316d43e2</icon>
+        <label>LMS (Leave Management System)</label>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 06:48:19</sys_created_on>
+        <sys_id>bbef49c047600210cb7cd369316d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LMS (Leave Management System)</sys_name>
+        <sys_package display_value="LMS (Leave Management System)" source="x_1315410_lms_leav">b05f8d0047600210cb7cd369316d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LMS (Leave Management System)">b05f8d0047600210cb7cd369316d43f3</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_bbef49c047600210cb7cd369316d43e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 06:48:19</sys_updated_on>
+    </sys_sg_applet_launcher_tab>
+</record_update>
