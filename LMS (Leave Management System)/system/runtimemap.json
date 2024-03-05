@@ -1,0 +1,462 @@
+{
+  "system": {
+    "sys_user_role": true,
+    "agent_assist_recommendation": true,
+    "asmt_metric": true,
+    "asmt_signature": true,
+    "sys_atf_step_config": true,
+    "sys_atf_step": true,
+    "sys_client_extension_point": true,
+    "sys_script_client": true,
+    "dl_u_priority": true,
+    "sys_ui_extension_point": true,
+    "sys_ui_policy": true,
+    "sys_ui_script": true,
+    "connect_action": true,
+    "content_block": true,
+    "content_block_detail": true,
+    "content_block_programmatic": true,
+    "content_block_static": true,
+    "content_css": true,
+    "cxs_table_config": true,
+    "sys_relationship": true,
+    "sys_db_object": true,
+    "sys_email_client_template": true,
+    "sys_email_canned_message": true,
+    "sys_recipient_qualifier": true,
+    "sys_ui_context_menu": true,
+    "sys_embedded_help_content": true,
+    "sys_ui_list_control": true,
+    "cmn_map_page": true,
+    "cmn_schedule_page": true,
+    "sys_ui_style": true,
+    "cmn_timeline_page": true,
+    "sys_ui_macro": true,
+    "sys_ui_page": true,
+    "sysrule_view": true,
+    "sys_embedded_tour_step": true,
+    "scheduled_data_import": true,
+    "sys_ws_operation": true,
+    "sys_web_service": true,
+    "sys_transform_map": true,
+    "mid_selector_override": true,
+    "ecc_agent_capability": true,
+    "ecc_agent_capability_value_test": true,
+    "ecc_agent_property": true,
+    "ecc_agent_script_include": true,
+    "sys_script_ajax": true,
+    "process_step_approval": true,
+    "bsm_action": true,
+    "ci_identifier": true,
+    "discovery_classy": true,
+    "clone_cleanup_script": true,
+    "csm_field_map": true,
+    "csm_table_map": true,
+    "sys_declarative_action_assignment": true,
+    "diagrammer_action": true,
+    "sys_dictionary": true,
+    "discovery_port_probe": true,
+    "sys_ui_title": true,
+    "sys_transform_entry": true,
+    "sys_impex_map": true,
+    "sys_installation_exit": true,
+    "sys_ui_list_script_client": true,
+    "sys_ui_list_script_server": true,
+    "live_table_notification": true,
+    "mtg_definition": true,
+    "sys_navigator": true,
+    "sys_nav_link": true,
+    "pwd_cred_store": true,
+    "pwd_extension_type": true,
+    "discovery_probes": true,
+    "expert_panel_template": true,
+    "sysauto_query_builder": true,
+    "sysauto": true,
+    "sys_service_api": true,
+    "sysevent_email_style": true,
+    "chg_soc_style_rule_core": true,
+    "sys_listener_detail": true,
+    "sys_transform_script": true,
+    "item_option_new": true,
+    "sys_home": true,
+    "expert_panel_transition": true,
+    "expert_panel": true,
+    "expert_ui_policy": true,
+    "sys_app_module": true,
+    "sys_ui_module": true,
+    "sys_script_email": true,
+    "sysevent_email_template": true,
+    "sysevent_in_email_action": true,
+    "sysevent_email_action": true,
+    "sys_push_notif_act_script": true,
+    "sys_push_notif_msg_content": true,
+    "trigger_rule": true,
+    "sys_rest_message": true,
+    "scheduled_data_export": true,
+    "sys_soap_message_function": true,
+    "sys_soap_message": true,
+    "pa_scripts": true,
+    "pc_vendor_cat_item": true,
+    "sys_properties_category": true,
+    "metric_definition": true,
+    "sysauto_report": true,
+    "cmn_relative_duration": true,
+    "risk_conditions": true,
+    "cmn_schedule": true,
+    "sys_script": true,
+    "sys_extension_point": true,
+    "sys_script_fix": true,
+    "sys_processor": true,
+    "sysauto_script": true,
+    "sysevent_script_action": true,
+    "sys_script_include": true,
+    "sys_ui_action": true,
+    "sc_ic_aprvl_type_defn_staging": true,
+    "catalog_script_client": true,
+    "sc_cat_item": true,
+    "catalog_ui_policy": true,
+    "sc_cat_item_option": true,
+    "sc_cat_item_guide": true,
+    "sc_cat_item_producer": true,
+    "sc_ic_task_assign_defn_staging": true,
+    "user_criteria": true,
+    "sysrule_escalate": true,
+    "sp_ng_template": true,
+    "sp_instance": true,
+    "sp_search_source": true,
+    "sp_page": true,
+    "sp_portal": true,
+    "sp_css": true,
+    "sp_theme": true,
+    "sp_angular_provider": true,
+    "sp_widget": true,
+    "trend_definition": true,
+    "sys_ui_ng_action": true,
+    "sys_script_vtable": true,
+    "sn_templated_snip_note_template": true,
+    "sys_script_validator": true,
+    "sys_email_filter": true,
+    "sys_sg_data_item": true,
+    "sys_email_layout": true,
+    "sys_process_flow": true,
+    "sys_widgets": true,
+    "wf_element_activity": true,
+    "wf_activity_definition": true,
+    "wf_ui_policy": true
+  },
+  "Access Control": {
+    "Roles": {
+      "x_1315410_lms_leav.leave_calculater_user": {
+        "sys_id": "0356d54847600210cb7cd369316d4306"
+      },
+      "x_1315410_lms_leav.leave_bucket_user": {
+        "sys_id": "05b39d8447600210cb7cd369316d43e3"
+      }
+    }
+  },
+  "Miscellaneous": {
+    "Dictionary Entries": {
+      "Last Year balance": {
+        "sys_id": "1c9311c447600210cb7cd369316d4300",
+        "sys_updated_on": "2024-02-19 07:04:47",
+        "SERVER_MOD_TIME": 1708306487000,
+        "LOCAL_MOD_TIME": 1709633996195,
+        "CURRENT_LOCAL_MOD_TIME": 1709633996195
+      },
+      "Accured": {
+        "sys_id": "13125d0047600210cb7cd369316d43fa",
+        "sys_updated_on": "2024-02-19 07:00:53",
+        "SERVER_MOD_TIME": 1708306253000,
+        "LOCAL_MOD_TIME": 1709633996375,
+        "CURRENT_LOCAL_MOD_TIME": 1709633996375
+      },
+      "Start Date": {
+        "sys_id": "19c19dc047600210cb7cd369316d4310",
+        "sys_updated_on": "2024-02-19 07:00:53",
+        "SERVER_MOD_TIME": 1708306253000,
+        "LOCAL_MOD_TIME": 1709633996427,
+        "CURRENT_LOCAL_MOD_TIME": 1709633996427
+      },
+      "Requested By": {
+        "sys_id": "1e20198047600210cb7cd369316d4323",
+        "sys_updated_on": "2024-02-19 07:00:53",
+        "SERVER_MOD_TIME": 1708306253000,
+        "LOCAL_MOD_TIME": 1709633996455,
+        "CURRENT_LOCAL_MOD_TIME": 1709633996455
+      },
+      "x_1315410_lms_leav_leave_request": {
+        "sys_id": "28bf09c047600210cb7cd369316d43df",
+        "sys_updated_on": "2024-02-19 11:19:54",
+        "SERVER_MOD_TIME": 1708321794000,
+        "LOCAL_MOD_TIME": 1709633996475,
+        "CURRENT_LOCAL_MOD_TIME": 1709633996475
+      },
+      "Comments": {
+        "sys_id": "2062ddc047600210cb7cd369316d4369",
+        "sys_updated_on": "2024-02-19 07:00:53",
+        "SERVER_MOD_TIME": 1708306253000,
+        "LOCAL_MOD_TIME": 1709633996507,
+        "CURRENT_LOCAL_MOD_TIME": 1709633996507
+      },
+      "Class": {
+        "sys_id": "3014bd8447e00210cb7cd369316d43d0",
+        "sys_updated_on": "2024-02-19 09:26:13",
+        "SERVER_MOD_TIME": 1708314973000,
+        "LOCAL_MOD_TIME": 1709633996535,
+        "CURRENT_LOCAL_MOD_TIME": 1709633996535
+      },
+      "Taken": {
+        "sys_id": "34739d8447600210cb7cd369316d4348",
+        "sys_updated_on": "2024-02-19 07:04:47",
+        "SERVER_MOD_TIME": 1708306487000,
+        "LOCAL_MOD_TIME": 1709633996563,
+        "CURRENT_LOCAL_MOD_TIME": 1709633996563
+      },
+      "Approval": {
+        "sys_id": "fca2558447600210cb7cd369316d43f8",
+        "sys_updated_on": "2024-02-19 07:10:36",
+        "SERVER_MOD_TIME": 1708306836000,
+        "LOCAL_MOD_TIME": 1709633997159,
+        "CURRENT_LOCAL_MOD_TIME": 1709633997159
+      },
+      "Leaves": {
+        "sys_id": "fc06990847600210cb7cd369316d43a2",
+        "sys_updated_on": "2024-02-19 07:16:24",
+        "SERVER_MOD_TIME": 1708307184000,
+        "LOCAL_MOD_TIME": 1709633997295,
+        "CURRENT_LOCAL_MOD_TIME": 1709633997295
+      },
+      "End Month": {
+        "sys_id": "f0f5554847600210cb7cd369316d4379",
+        "sys_updated_on": "2024-02-19 07:16:24",
+        "SERVER_MOD_TIME": 1708307184000,
+        "LOCAL_MOD_TIME": 1709633997323,
+        "CURRENT_LOCAL_MOD_TIME": 1709633997323
+      },
+      "x_1315410_lms_leav_leave_calculater": {
+        "sys_id": "df56598847600210cb7cd369316d43ec",
+        "sys_updated_on": "2024-02-19 11:19:54",
+        "SERVER_MOD_TIME": 1708321794000,
+        "LOCAL_MOD_TIME": 1709633997423,
+        "CURRENT_LOCAL_MOD_TIME": 1709633997423
+      },
+      "Leave Assignment": {
+        "sys_id": "c626118847600210cb7cd369316d43ee",
+        "sys_updated_on": "2024-02-19 07:18:23",
+        "SERVER_MOD_TIME": 1708307303000,
+        "LOCAL_MOD_TIME": 1709633997448,
+        "CURRENT_LOCAL_MOD_TIME": 1709633997448
+      },
+      "Country": {
+        "sys_id": "b0165d0847600210cb7cd369316d4382",
+        "sys_updated_on": "2024-02-19 07:16:24",
+        "SERVER_MOD_TIME": 1708307184000,
+        "LOCAL_MOD_TIME": 1709633997484,
+        "CURRENT_LOCAL_MOD_TIME": 1709633997484
+      },
+      "Employee": {
+        "sys_id": "bbe2118447600210cb7cd369316d43bd",
+        "sys_updated_on": "2024-02-19 07:04:47",
+        "SERVER_MOD_TIME": 1708306487000,
+        "LOCAL_MOD_TIME": 1709633997516,
+        "CURRENT_LOCAL_MOD_TIME": 1709633997516
+      },
+      "Duration": {
+        "sys_id": "a8f11d4047600210cb7cd369316d43a4",
+        "sys_updated_on": "2024-02-19 07:00:53",
+        "SERVER_MOD_TIME": 1708306253000,
+        "LOCAL_MOD_TIME": 1709633997548,
+        "CURRENT_LOCAL_MOD_TIME": 1709633997548
+      },
+      "Number": {
+        "sys_id": "a8bf49c047600210cb7cd369316d4379",
+        "sys_updated_on": "2024-02-19 06:47:17",
+        "SERVER_MOD_TIME": 1708305437000,
+        "LOCAL_MOD_TIME": 1709633998124,
+        "CURRENT_LOCAL_MOD_TIME": 1709633998124
+      },
+      "Leave Type_9ec5594847600210cb7cd369316d436b": {
+        "sys_id": "9ec5594847600210cb7cd369316d436b",
+        "sys_updated_on": "2024-02-19 07:17:17",
+        "SERVER_MOD_TIME": 1708307237000,
+        "LOCAL_MOD_TIME": 1709633998236,
+        "CURRENT_LOCAL_MOD_TIME": 1709633998236
+      },
+      "Leave Type_a0bf49c047600210cb7cd369316d437e": {
+        "sys_id": "a0bf49c047600210cb7cd369316d437e",
+        "sys_updated_on": "2024-02-19 07:07:59",
+        "SERVER_MOD_TIME": 1708306679000,
+        "LOCAL_MOD_TIME": 1709633998272,
+        "CURRENT_LOCAL_MOD_TIME": 1709633998272
+      },
+      "x_1315410_lms_leav_leave_bucket": {
+        "sys_id": "9db3d9c447600210cb7cd369316d43bd",
+        "sys_updated_on": "2024-02-19 11:19:54",
+        "SERVER_MOD_TIME": 1708321794000,
+        "LOCAL_MOD_TIME": 1709633998344,
+        "CURRENT_LOCAL_MOD_TIME": 1709633998344
+      },
+      "Accrued": {
+        "sys_id": "97539d8447600210cb7cd369316d4347",
+        "sys_updated_on": "2024-02-19 07:04:47",
+        "SERVER_MOD_TIME": 1708306487000,
+        "LOCAL_MOD_TIME": 1709633998372,
+        "CURRENT_LOCAL_MOD_TIME": 1709633998372
+      },
+      "Leave Type": {
+        "sys_id": "9023ddc047600210cb7cd369316d436c",
+        "sys_updated_on": "2024-02-19 07:13:16",
+        "SERVER_MOD_TIME": 1708306996000,
+        "LOCAL_MOD_TIME": 1709633998432,
+        "CURRENT_LOCAL_MOD_TIME": 1709633998432
+      },
+      "Taken_8f225d0047600210cb7cd369316d43fa": {
+        "sys_id": "8f225d0047600210cb7cd369316d43fa",
+        "sys_updated_on": "2024-02-19 07:00:53",
+        "SERVER_MOD_TIME": 1708306253000,
+        "LOCAL_MOD_TIME": 1709633998488,
+        "CURRENT_LOCAL_MOD_TIME": 1709633998488
+      },
+      "Half Day": {
+        "sys_id": "6a81910447600210cb7cd369316d4351",
+        "sys_updated_on": "2024-02-19 10:16:33",
+        "SERVER_MOD_TIME": 1708317993000,
+        "LOCAL_MOD_TIME": 1709633998556,
+        "CURRENT_LOCAL_MOD_TIME": 1709633998556
+      },
+      "Status": {
+        "sys_id": "6282558447600210cb7cd369316d43f8",
+        "sys_updated_on": "2024-02-19 07:09:12",
+        "SERVER_MOD_TIME": 1708306752000,
+        "LOCAL_MOD_TIME": 1709633999168,
+        "CURRENT_LOCAL_MOD_TIME": 1709633999168
+      },
+      "End Date": {
+        "sys_id": "5de11dc047600210cb7cd369316d43ae",
+        "sys_updated_on": "2024-02-19 07:00:53",
+        "SERVER_MOD_TIME": 1708306253000,
+        "LOCAL_MOD_TIME": 1709633999256,
+        "CURRENT_LOCAL_MOD_TIME": 1709633999256
+      },
+      "Starting Month": {
+        "sys_id": "61e5594847600210cb7cd369316d4327",
+        "sys_updated_on": "2024-02-19 07:16:24",
+        "SERVER_MOD_TIME": 1708307184000,
+        "LOCAL_MOD_TIME": 1709633999296,
+        "CURRENT_LOCAL_MOD_TIME": 1709633999296
+      },
+      "Balance_5d831dc047600210cb7cd369316d43b1": {
+        "sys_id": "5d831dc047600210cb7cd369316d43b1",
+        "sys_updated_on": "2024-02-19 07:04:47",
+        "SERVER_MOD_TIME": 1708306487000,
+        "LOCAL_MOD_TIME": 1709633999320,
+        "CURRENT_LOCAL_MOD_TIME": 1709633999320
+      },
+      "Balance": {
+        "sys_id": "3852910447600210cb7cd369316d4355",
+        "sys_updated_on": "2024-02-19 07:00:53",
+        "SERVER_MOD_TIME": 1708306253000,
+        "LOCAL_MOD_TIME": 1709633999356,
+        "CURRENT_LOCAL_MOD_TIME": 1709633999356
+      }
+    }
+  },
+  "Server Development": {
+    "Business Rules": {
+      "Create Leave Bucket": {
+        "sys_id": "18b7794847e00210cb7cd369316d4358",
+        "sys_updated_on": "2024-02-27 06:37:58",
+        "SERVER_MOD_TIME": 1708996078000,
+        "LOCAL_MOD_TIME": 1709633996399,
+        "CURRENT_LOCAL_MOD_TIME": 1709633996399
+      }
+    },
+    "Script Includes": {
+      "lmsAjax": {
+        "sys_id": "df25e2b447700210cb7cd369316d43fc",
+        "sys_updated_on": "2024-03-05 10:01:08",
+        "SERVER_MOD_TIME": 1709613068000,
+        "LOCAL_MOD_TIME": 1709633997399,
+        "CURRENT_LOCAL_MOD_TIME": 1709633997399
+      }
+    }
+  },
+  "Navigation": {
+    "Modules": {
+      "Create New": {
+        "sys_id": "28ef0dc047600210cb7cd369316d43cc"
+      },
+      "Leave Calculaters": {
+        "sys_id": "9756598847600210cb7cd369316d43b8"
+      },
+      "Leave Buckets": {
+        "sys_id": "9db3d9c447600210cb7cd369316d4390"
+      },
+      "Leave Request": {
+        "sys_id": "e0ef0dc047600210cb7cd369316d43c9"
+      },
+      "All": {
+        "sys_id": "e8ef0dc047600210cb7cd369316d43ce"
+      }
+    },
+    "Modules (Mobile)": {
+      "Leave Calculaters": {
+        "sys_id": "9356598847600210cb7cd369316d43bb"
+      },
+      "Leave Buckets": {
+        "sys_id": "d5b3d9c447600210cb7cd369316d43a3"
+      }
+    }
+  },
+  "Client Development": {
+    "Client Scripts": {
+      "Set Duration for half Day": {
+        "sys_id": "3536024847240210cb7cd369316d436a",
+        "sys_updated_on": "2024-02-19 10:53:31",
+        "SERVER_MOD_TIME": 1708320211000,
+        "LOCAL_MOD_TIME": 1709633996587,
+        "CURRENT_LOCAL_MOD_TIME": 1709633996587
+      },
+      "setDuration": {
+        "sys_id": "6f992af847700210cb7cd369316d4343",
+        "sys_updated_on": "2024-03-05 10:05:40",
+        "SERVER_MOD_TIME": 1709613340000,
+        "LOCAL_MOD_TIME": 1709633998504,
+        "CURRENT_LOCAL_MOD_TIME": 1709633998504
+      }
+    },
+    "UI Policies": {
+      "Hide End Date for Half Day": {
+        "sys_id": "efef7d8047240210cb7cd369316d43aa",
+        "sys_updated_on": "2024-02-19 10:24:11",
+        "SERVER_MOD_TIME": 1708318451000,
+        "LOCAL_MOD_TIME": 1709633997391,
+        "CURRENT_LOCAL_MOD_TIME": 1709633997391
+      }
+    }
+  },
+  "System Mobile": {
+    "Data Items": {
+      "LMS (Leave Management System) Leave Request": {
+        "sys_id": "7bef49c047600210cb7cd369316d43e3",
+        "sys_updated_on": "2024-02-19 06:48:19",
+        "SERVER_MOD_TIME": 1708305499000,
+        "LOCAL_MOD_TIME": 1709633998520,
+        "CURRENT_LOCAL_MOD_TIME": 1709633998520
+      }
+    }
+  },
+  "Data Model": {
+    "Tables": {
+      "Leave Request": {
+        "sys_id": "a0bf09c047600210cb7cd369316d43db"
+      },
+      "Leave Calculater": {
+        "sys_id": "a1c5118847600210cb7cd369316d43e9"
+      },
+      "Leave Bucket": {
+        "sys_id": "dbe2dd8447600210cb7cd369316d43f9"
+      }
+    }
+  }
+}
