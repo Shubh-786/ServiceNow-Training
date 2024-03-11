@@ -10,29 +10,34 @@
         <script><![CDATA[var lmsAjax = Class.create();
 lmsAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
-	getDateDiff : function()
-	{
-		var d1 = new GlideDate();
-		d1.setDisplayValue(this.getParameter('sysparm_start'));
-		var d2 = new GlideDate();
-		d2.setDisplayValue(this.getParameter('sysparam_end'));
-		
-		var duration = GideDate.subtract(d1,d2);
-		return duration.getNumericValue();
-	},
+	getDateDiff: function() {
+    var d1 = new GlideDate();
+    d1.setDisplayValue(this.getParameter('sysparm_start'));
+    var d2 = new GlideDate();
+    d2.setDisplayValue(this.getParameter('sysparm_end'));
+
+    gs.info('Start Date: ' + d1.getDisplayValue());
+    gs.info('End Date: ' + d2.getDisplayValue());
+
+    var duration = GlideDate.subtract(d1, d2);
+    gs.info('Duration: ' + duration.getNumericValue());
+    
+    return duration.getNumericValue();
+},
+
     type: 'lmsAjax'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 07:28:46</sys_created_on>
         <sys_id>df25e2b447700210cb7cd369316d43fc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>lmsAjax</sys_name>
         <sys_package display_value="LMS (Leave Management System)" source="x_1315410_lms_leav">b05f8d0047600210cb7cd369316d43f3</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="LMS (Leave Management System)">b05f8d0047600210cb7cd369316d43f3</sys_scope>
         <sys_update_name>sys_script_include_df25e2b447700210cb7cd369316d43fc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-05 10:01:08</sys_updated_on>
+        <sys_updated_on>2024-03-11 06:07:59</sys_updated_on>
     </sys_script_include>
 </record_update>
