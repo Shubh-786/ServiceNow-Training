@@ -17,27 +17,35 @@
 
    //Type appropriate comment here, and begin script below
    var ga = new GlideAjax('lmsAjax');
-	ga.addParam('sysparm_name','getLeaveBucket');
-	ga.addParam('sysparm_user', g_user.userId);
-	ga.addParam('sysparm_leavetype',newValue);
-	ga.getXML(getBucket);
-	
-	function getBucket(response){
-		var answer = response.responseXML.documentElement.getAttribute("answer");
-		var result = JSON.parse(answer);
-		g_form.setValue('accrued',result.accrued);
-		g_form.setValue('balance',result.balance);
-		g_form.setValue('taken',result.taken);
-		
-	}
-}]]></script>
+   ga.addParam('sysparm_name','getLeaveBucket');
+   ga.addParam('sysparm_user', g_user.userID);
+   ga.addParam('sysparm_leavetype',newValue);
+   ga.getXML(getBucket);
+   
+   function getBucket(response){
+      var answer = response.responseXML.documentElement.getAttribute("answer");
+      if (answer) {
+         var result = JSON.parse(answer);
+         if (result && result.accrued !== undefined) {
+            g_form.setValue('accrued', result.accrued);
+            g_form.setValue('balance', result.balance);
+            g_form.setValue('taken', result.taken);
+         } else {
+            console.error('Invalid response format: ', answer);
+         }
+      } else {
+         console.error('Null response received');
+      }
+   }
+}
+]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-11 10:17:47</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>89c58ab29734021061183b90f053afa7</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Populate Leave Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="LMS (Leave Management System)" source="x_1315410_lms_leav">b05f8d0047600210cb7cd369316d43f3</sys_package>
@@ -45,7 +53,7 @@
         <sys_scope display_value="LMS (Leave Management System)">b05f8d0047600210cb7cd369316d43f3</sys_scope>
         <sys_update_name>sys_script_client_89c58ab29734021061183b90f053afa7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-12 10:07:29</sys_updated_on>
+        <sys_updated_on>2024-03-13 11:30:14</sys_updated_on>
         <table>x_1315410_lms_leav_leave_request</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

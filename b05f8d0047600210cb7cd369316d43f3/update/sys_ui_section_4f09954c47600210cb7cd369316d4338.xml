@@ -3,25 +3,25 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>919bea8b9770021061183b90f053afc1</sys_id>
+            <sys_created_on>2024-03-13 11:31:55</sys_created_on>
+            <sys_id>6a6d68e39774021061183b90f053af38</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
+            <sys_updated_on>2024-03-13 11:31:55</sys_updated_on>
             <text>&lt;h3 style="text-align: center;"&gt;Leave Mangement System &lt;/h3&gt;</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>919bea8b9770021061183b90f053afc1</element>
+            <element>6a6d68e39774021061183b90f053af38</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>519b2ecb9770021061183b90f053af9a</sys_id>
+            <sys_created_on>2024-03-13 11:31:55</sys_created_on>
+            <sys_id>ae6dece39774021061183b90f053af20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
+            <sys_updated_on>2024-03-13 11:31:55</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -29,237 +29,181 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>d19b2ecb9770021061183b90f053af9a</sys_id>
+            <sys_created_on>2024-03-13 11:31:55</sys_created_on>
+            <sys_id>266dece39774021061183b90f053af21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
+            <sys_updated_on>2024-03-13 11:31:55</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>leave_type</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>559b2ecb9770021061183b90f053af9a</sys_id>
+            <sys_created_on>2024-03-13 11:31:55</sys_created_on>
+            <sys_id>a66dece39774021061183b90f053af21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>leave_type</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>d59b2ecb9770021061183b90f053af9a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
+            <sys_updated_on>2024-03-13 11:31:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>start_date</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>599b2ecb9770021061183b90f053af9a</sys_id>
+            <sys_created_on>2024-03-13 11:31:55</sys_created_on>
+            <sys_id>2a6dece39774021061183b90f053af21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
+            <sys_updated_on>2024-03-13 11:31:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>end_date</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>d99b2ecb9770021061183b90f053af9a</sys_id>
+            <sys_created_on>2024-03-13 11:31:55</sys_created_on>
+            <sys_id>aa6dece39774021061183b90f053af21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>half_day</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>5d9b2ecb9770021061183b90f053af9a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
+            <sys_updated_on>2024-03-13 11:31:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>approval</element>
-            <position>7</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>dd9b2ecb9770021061183b90f053af9a</sys_id>
+            <sys_created_on>2024-03-13 11:31:55</sys_created_on>
+            <sys_id>2e6dece39774021061183b90f053af21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
+            <sys_updated_on>2024-03-13 11:31:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>8</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>519b2ecb9770021061183b90f053af9b</sys_id>
+            <sys_created_on>2024-03-13 11:31:55</sys_created_on>
+            <sys_id>ae6dece39774021061183b90f053af21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
+            <sys_updated_on>2024-03-13 11:31:55</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>accrued</element>
-            <position>9</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>d19b2ecb9770021061183b90f053af9b</sys_id>
+            <sys_created_on>2024-03-13 11:31:55</sys_created_on>
+            <sys_id>226dece39774021061183b90f053af22</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>balance</element>
-            <position>10</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>559b2ecb9770021061183b90f053af9b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
+            <sys_updated_on>2024-03-13 11:31:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>taken</element>
-            <position>11</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>d59b2ecb9770021061183b90f053af9b</sys_id>
+            <sys_created_on>2024-03-13 11:31:55</sys_created_on>
+            <sys_id>a26dece39774021061183b90f053af22</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
+            <sys_updated_on>2024-03-13 11:31:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>status</element>
-            <position>12</position>
+            <element>balance</element>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>599b2ecb9770021061183b90f053af9b</sys_id>
+            <sys_created_on>2024-03-13 11:31:55</sys_created_on>
+            <sys_id>266dece39774021061183b90f053af22</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
+            <sys_updated_on>2024-03-13 11:31:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>duration</element>
-            <position>13</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>d99b2ecb9770021061183b90f053af9b</sys_id>
+            <sys_created_on>2024-03-13 11:31:55</sys_created_on>
+            <sys_id>a66dece39774021061183b90f053af22</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>requested_by</element>
-            <position>14</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>5d9b2ecb9770021061183b90f053af9b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
+            <sys_updated_on>2024-03-13 11:31:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>manager</element>
-            <position>15</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>dd9b2ecb9770021061183b90f053af9b</sys_id>
+            <sys_created_on>2024-03-13 11:31:55</sys_created_on>
+            <sys_id>2a6dece39774021061183b90f053af22</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
+            <sys_updated_on>2024-03-13 11:31:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>16</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>519b2ecb9770021061183b90f053af9c</sys_id>
+            <sys_created_on>2024-03-13 11:31:55</sys_created_on>
+            <sys_id>aa6dece39774021061183b90f053af22</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
+            <sys_updated_on>2024-03-13 11:31:55</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>comments</element>
-            <position>17</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-12 07:26:12</sys_created_on>
-            <sys_id>d19b2ecb9770021061183b90f053af9c</sys_id>
+            <sys_created_on>2024-03-13 11:31:55</sys_created_on>
+            <sys_id>2e6dece39774021061183b90f053af22</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1315410_lms_leav_leave_request" sys_domain="global" view="Default view">4f09954c47600210cb7cd369316d4338</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-12 07:26:12</sys_updated_on>
+            <sys_updated_on>2024-03-13 11:31:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
