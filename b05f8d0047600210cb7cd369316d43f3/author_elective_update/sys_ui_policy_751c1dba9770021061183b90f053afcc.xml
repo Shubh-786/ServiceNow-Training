@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Make feild mandatory</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 07:01:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>751c1dba9770021061183b90f053afcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make feild mandatory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LMS (Leave Management System)" source="x_1315410_lms_leav">b05f8d0047600210cb7cd369316d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LMS (Leave Management System)">b05f8d0047600210cb7cd369316d43f3</sys_scope>
+        <sys_update_name>sys_ui_policy_751c1dba9770021061183b90f053afcc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-11 07:01:55</sys_updated_on>
+        <table>x_1315410_lms_leav_leave_request</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LMS (Leave Management System)">b05f8d0047600210cb7cd369316d43f3</application>
+        <file_path/>
+        <instance_id>2053a6e1db727194caf99027c5961921</instance_id>
+        <instance_name>dev228000</instance_name>
+        <name>sys_ui_policy_751c1dba9770021061183b90f053afcc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Make feild mandatory&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-11 07:01:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;751c1dba9770021061183b90f053afcc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make feild mandatory&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="LMS (Leave Management System)" source="x_1315410_lms_leav"&gt;b05f8d0047600210cb7cd369316d43f3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="LMS (Leave Management System)"&gt;b05f8d0047600210cb7cd369316d43f3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_751c1dba9770021061183b90f053afcc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-11 07:01:55&lt;/sys_updated_on&gt;&lt;table&gt;x_1315410_lms_leav_leave_request&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1577822626</payload_hash>
+        <record_name>Make feild mandatory</record_name>
+        <reverted_from/>
+        <source>e34470ed9734021061183b90f053aff5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 07:01:55</sys_created_on>
+        <sys_id>b76c91fa9770021061183b90f053afb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e2c51642c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-11 07:01:55</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>bb6c91fad9700210fd17afb8a48f19b1</update_guid>
+        <update_guid_history>bb6c91fad9700210fd17afb8a48f19b1:-1577822626</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-13 05:47:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>40f71d5dffaa46b095712e80972d9e40</sys_id>
+        <sys_metadata>751c1dba9770021061183b90f053afcc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make feild mandatory</sys_name>
+        <sys_package display_value="LMS (Leave Management System)" source="x_1315410_lms_leav">b05f8d0047600210cb7cd369316d43f3</sys_package>
+        <sys_parent display_value="Leave Request">a0bf09c047600210cb7cd369316d43db</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="LMS (Leave Management System)">b05f8d0047600210cb7cd369316d43f3</sys_scope>
+        <sys_scope_delete display_value="">76ed04a612744b4087af04c9c03d7900</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_751c1dba9770021061183b90f053afcc</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_751c1dba9770021061183b90f053afcc">b76c91fa9770021061183b90f053afb2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-13 05:47:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
