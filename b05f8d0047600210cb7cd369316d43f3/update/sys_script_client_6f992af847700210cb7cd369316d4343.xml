@@ -11,33 +11,41 @@
         <name>setDuration</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-   if (isLoading || newValue === '') {
-      return;
-   }
+    if (isLoading || newValue === '') {
+        return;
+    }
 
-	var start = g_form.getValue('start_date')
-   //Type appropriate comment here, and begin script below
-   var ga = new GlideAjax('lmsAjax');
-   ga.addParam('sysparm_name','getDateDiff');
-   ga.addParam('sysparam',start);
-   ga.addParam('sysparam',newValue);
-   ga.getXML(getDuration);
-	
-   function getDuration(response){
-	   var answer = response.responseXML.documentElement.getAttribute("answer");
-	   var days = (answer / (1000*60*60*24));
-	   g_form.setValue('duration',days);
-	   
-   }
-	
-}]]></script>
+    var start = g_form.getValue('start_date');
+    var end = g_form.getValue('end_date');
+    console.log('Start Date:', start);
+    console.log('End Date:', end);
+
+    var ga = new GlideAjax('lmsAjax');
+    ga.addParam('sysparm_name', 'getDateDiff');
+    ga.addParam('sysparm_start', start);
+    ga.addParam('sysparm_end', end);
+    ga.getXML(getDuration);
+
+    function getDuration(response) {
+        console.log('Response:', response);
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        console.log('Answer:', answer);
+        var days = (answer / (1000 * 60 * 60 * 24));
+		var days1 = days + 1;
+        console.log('Days:', days1);
+        g_form.setValue('duration', days1);
+    }
+}
+
+
+]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 09:58:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6f992af847700210cb7cd369316d4343</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>setDuration</sys_name>
         <sys_overrides/>
         <sys_package display_value="LMS (Leave Management System)" source="x_1315410_lms_leav">b05f8d0047600210cb7cd369316d43f3</sys_package>
@@ -45,7 +53,7 @@
         <sys_scope display_value="LMS (Leave Management System)">b05f8d0047600210cb7cd369316d43f3</sys_scope>
         <sys_update_name>sys_script_client_6f992af847700210cb7cd369316d4343</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-05 10:05:40</sys_updated_on>
+        <sys_updated_on>2024-03-11 06:27:26</sys_updated_on>
         <table>x_1315410_lms_leav_leave_request</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
